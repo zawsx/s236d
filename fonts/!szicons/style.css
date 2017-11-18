@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'szimfont22';
+    src:
+        url('fonts/szimfont22.ttf?wbvn3t') format('truetype'),
+        url('fonts/szimfont22.woff?wbvn3t') format('woff'),
+        url('fonts/szimfont22.svg?wbvn3t#szimfont22') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.szicon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'szimfont22' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.szicon-szsym22:before {
+    content: "\e001";
+}
+.szicon-uniE004:before {
+    content: "\e004";
+}
+.szicon-uniE002:before {
+    content: "\e002";
+}
+.szicon-uniE000:before {
+    content: "\e000";
+}
+.szicon-uniE003:before {
+    content: "\e003";
+}
+.szicon-eyedropper:before {
+    content: "\e900";
+}
+
